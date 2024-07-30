@@ -1,9 +1,9 @@
 {
   "name": "plume2",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "a lightweight of flux for mobile and web",
-  "main": "./es5/index.js",
-  "types": "./es5/typings/index.d.ts",
+  "main": "./es6/index.js",
+  "types": "./es6/typings/index.d.ts",
   "bin": {
     "plume2": "./cli/index.js",
     "plume2-new": "./cli/new-app.js"
@@ -27,13 +27,12 @@
   },
   "homepage": "https://github.com/hufeng/plume#readme",
   "dependencies": {
-    "commander": "^2.18.0",
     "immutable": "^3.8.1",
     "mitt": "^1.1.2",
-    "prop-types": "^15.5.10",
     "raf": "^3.4.0"
   },
   "devDependencies": {
-    "fs-extra": "^7.0.0"
+    "fs-extra": "^7.0.0",
+    "commander": "^2.18.0"
   }
 }
